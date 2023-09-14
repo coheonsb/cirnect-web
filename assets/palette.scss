@@ -1,0 +1,78 @@
+:root {
+  --gray3: #dee2e6;
+  --gray2: #e9ecef;
+  --black: #000000;
+  --white: #ffffff;
+  --clblue50: #f0f3fc;
+  --clblue400: #3B6CEA;
+  --primary: #0038FF;
+  --secondary1: #001EE6;
+  --reddish-pink: #ff2d6b;
+  --bright-blue: #005bff;
+  --marigold: #ffbf00;
+  --gray9: #212529;
+  --gray8: #343a40;
+  --gray7: #495057;
+  --gray6: #868e96;
+  --gray5: #adb5bd;
+  --gray1: #f1f3f5;
+  --gray0: #f8f9fa;
+  --gray4: #ced4da;
+  --vibrant-green: #00cf06;
+  --gift-ready: #ff7e12;
+  --blue50: #E9E8FF;
+  --blue100: #C7C6FF;
+  --blue200: #9EA1FF;
+  --blue300: #707BFF;
+  --blue400: #485AFF;
+  --blue500: #0038FF;
+  --blue700: #001EE6;
+  --blue900: #001EE6;
+  --plus100: #0000CD;
+  --skblue50: #E1F6FF;
+  --skblue100: #B2E7FF;
+  --skblue400: #00BDFF;
+  --skblue600: #00A0F0;
+  --gray50: #FBFBFE;
+  --gray100: #F7F7FA;
+  --gray150: #EEEEEE;
+  --gray200: #F2F2F5;
+  --gray300: #E5E5E8;
+  --gray400: #C3C3C5;
+  --gray500: #A4A4A7;
+  --gray600: #7B7B7D;
+  --gray700: #707070;
+  --gray800: #474749;
+  --gray900: #262628;
+  --red50: #FFEBEC;
+  --red600: #E53031;
+  --red400: #EF4D4E;
+  --red100: #E52F33;
+  --sub100: #7022B1;
+  --purple100: #6D23CB;
+  --sub5: #F3E5F1;
+  --teal200: #00E7D0;
+  --teal300: #00D9BA;
+  --teal500: #00C297;
+  --silver: #A1A1B4;
+  --gold: #E9D25A;
+  --navy200: #D9DBF4;
+  --navy400: #9FA1B9;
+  --navy600: #57596E;
+  --navy800: #272A3C;
+  --navy900: #04061C;
+
+  --primary-button-color: #ffffff;
+}
+body {
+  .secondary2{color:var(--secondary2)}
+  .primary{color:var(--primary)}
+  .secondary1{color:var(--secondary1)}
+  .reddish-pink{color:var(--reddish-pink)}
+  .bright-blue{color:var(--bright-blue)}
+  .marigold{color:var(--marigold)}
+  .vibrant-green{color:var(--vibrant-green)}
+  .gift-ready{color:var(--gift-ready)}
+}
+
+

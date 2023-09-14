@@ -1,0 +1,19 @@
+{
+  // https://nuxt.com/docs/guide/concepts/typescript
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions" : {
+    "allowJs": true,
+
+    // "jsxFactory": "h",
+    // "sourceMap": true,
+    // "resolveJsonModule": true,
+    // "esModuleInterop": true,
+     "paths": {
+      "~/*": [
+        "./*",
+      ]
+     }
+  },
+
+}
+

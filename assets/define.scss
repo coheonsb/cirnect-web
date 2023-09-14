@@ -1,0 +1,30 @@
+@function rem($pixels) {
+  @if $pixels == 1px { @return $pixels; }
+  @return calc(calc($pixels / 16px) * 1rem);
+  //@return $pixels;
+}
+
+@mixin create-cols($span, $total) {
+  .col--#{$span}-of-#{$total} {
+    width: calc(($span / $total) * 100%);
+    //width: ($span / $total) * $width;
+  }
+}
+
+@mixin clamp($lines, $line-height:1.6){
+  max-width: 100%; max-height: $line-height*$lines*1em; 
+  overflow: hidden;
+  display: block;
+  line-height: $line-height; 
+  /* autoprefixer: off */
+  display:-webkit-box; -webkit-line-clamp: $lines; -webkit-box-orient: vertical;
+}
+
+
+
+
+
+%fixed-full {
+  position: fixed;left:0;right:0;bottom:0;top:0; 
+  bottom:env(safe-area-inset-bottom,0); 
+}
