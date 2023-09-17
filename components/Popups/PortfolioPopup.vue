@@ -17,22 +17,22 @@
     </div>
     <br>
     <div class="sp14">
-      <div>주요 기능, 내용</div>
+      <div class="wb-ka">주요 기능, 내용</div>
       <span class="sp16 white-2" v-html="project.description" />
     </div>
     <br>
     <div class="sp14">
-      <div>기술 스택</div>
+      <div class="wb-ka">기술 스택</div>
       <span v-for="t of project.tech" :key="t" class="sp16 white-2 tech">{{ t }}</span>
     </div>
     <br>
     <div ref="end" class="sp14 ">
-      <div>기여도</div>
+      <div class="wb-ka">기여도</div>
       <div class="sp16  white-2">{{ project.my }}</div>
     </div>
     <br>
     <div class="sp14 fd-r">
-      <div>Link: </div>
+      <div class="wb-ka">Link: </div>
       <a v-for="l of project.link" :key="l" :href="l" target="_blank"
          class="sp16 ml s-10">{{ l }}</a>
     </div>
@@ -67,6 +67,7 @@ export default {
   height: 100%;
   max-height: 90vh;
   overflow: scroll;
+  word-break: break-word;
   color: var(--white-2);
   .title {
     position: relative;
@@ -89,14 +90,18 @@ export default {
   .media {
     width: 100%;
     height: 100%;
+    max-height: 50vw;
     img {
       width: 100%;
       height: 100%;
+      max-height: 50vw;
       object-fit: contain;
     }
     video {
       width: 100%;
       height: 100%;
+      max-height: 50vw;
+
       object-fit: contain;
     }
   }

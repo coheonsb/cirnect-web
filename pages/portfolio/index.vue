@@ -493,6 +493,9 @@ export default {
       margin-right: auto;
       // height: calc(50% - 90px);
       max-height: calc(92vw / 4);
+      @media screen and (max-width: 684px) {
+        max-height: calc(92vw / 2);
+      }
       object-fit: cover;
       overflow: hidden;
       border-radius: 20px;
@@ -504,6 +507,9 @@ export default {
       margin-left: auto;
       margin-right: auto;
       max-height: calc(92vw / 4);
+      @media screen and (max-width: 684px) {
+        max-height: calc(92vw / 2);
+      }
       object-fit: cover;
       object-position: top;
       overflow: hidden;
