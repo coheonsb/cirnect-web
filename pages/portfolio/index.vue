@@ -192,7 +192,7 @@ export default {
           name: '개인 홈페이지',
           text: 'Nuxt3 + Vue3로 만든 개인 홈페이지',
           tech: ['Nuxt3', 'Vue3', 'Javascript', 'Typescript', 'SCSS', 'Docker', 'Reverse Proxy', 'Nginx'],
-          link: ['https://cirnect.asuscomm.com/'],
+          link: ['https://cirnect.asuscomm.com/portfolio'],
           img: img02,
           period: '2023.09.17 ~',
           description: 'Nuxt3 + Vue3로 만든 개인 홈페이지 입니다. 다양한 기능을 추가해 보는 샌드박스입니다.',
