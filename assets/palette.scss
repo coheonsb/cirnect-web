@@ -63,6 +63,19 @@
   --navy900: #04061C;
 
   --primary-button-color: #ffffff;
+
+  --smoky-black: #121212;
+  --white-2: #fafafa;
+  --black-2: #1e1e1f;
+
+  --vegas-gold: #f39c12;
+
+  --shadow-2: 0 16px 30px rgba(0,0,0,.125);
+  --shadow-5: 0 24px 80px rgba(0,0,0,.25);
+  --bg-gradient-jet: linear-gradient(to bottom right,rgba(45,45,46,.251),rgba(27,27,29,0)),#202022;
+
+  --border-gradient-onyx: linear-gradient(to bottom right,#404040,rgba(64,64,64,0) 50%);
+
 }
 body {
   .secondary2{color:var(--secondary2)}

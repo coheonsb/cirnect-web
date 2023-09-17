@@ -17,6 +17,7 @@ html {
   font-family: SpoqaHanSans, Apple SD Gothic Neo, Nanum Barun Gothic, Nanum Gothic, '돋움', Dotum, Verdana, Arial, sans-serif;
   $font-size: 14px;
   $width: 360px;
+  scroll-behavior: smooth;
 }
 :root{
   --space-2: 2px;
@@ -149,6 +150,7 @@ div, img, button {
 .ta-r{text-align: right;}
 .ta-l{text-align: left;}
 .td-lt{text-decoration: line-through;}
+.jc-sa {justify-content: space-around;}
 
 
 body b, body strong { font-weight: bold; }
@@ -261,12 +263,7 @@ td {
 }
 
 h2 {
-  margin-top: 32px;
-  margin-bottom: 12px;
-  font-size: rem(14px);
-  font-weight: 400;
-  letter-spacing: (-0.5px);
-  color: #303030;
+  
 }
 
 
@@ -305,9 +302,7 @@ input[readonly='readonly']:focus {
   }
 }
 
-.item + .item {
-  margin-top: 8px;
-}
+
 
 .checkbox-input {
   display: inline-flex;

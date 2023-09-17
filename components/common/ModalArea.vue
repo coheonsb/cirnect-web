@@ -28,7 +28,7 @@ export default {
   data () {
     return {
       popups: [],
-      id: 1
+      id: 2
     }
   },
 
@@ -107,7 +107,7 @@ export default {
       background: rgba(0,0,0,0);
     }
     .modal {
-      background: #fff;
+      background: var(--black-2);
       padding: 25px;
       border-radius: 10px;
       box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);

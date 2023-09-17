@@ -1,7 +1,6 @@
 <template>
   <div class="default">
     <slot keep-alive />
-    <!-- <Footer /> -->
     <ModalArea ref="modalArea" class="modal-area" />
   </div>
 
@@ -10,13 +9,12 @@
 <script>
 
 import ModalArea from '~/components/common/ModalArea.vue'
-// import Footer from '~/components/Footer.vue'
 import BaseExtend from '~/layouts/BaseExtend.js'
 
 export default {
   name: 'Default',
   components: {
-     ModalArea
+    ModalArea
   },
   extends: BaseExtend,
   setup () {
@@ -30,14 +28,14 @@ export default {
 
 </script>
 <style scoped lang="scss">
-.empty {
-  .default {
-    width: 100%;
-    background-color: var(--primary-color);
-    padding: 20px;
-  }
+.default {
+  width: 100%;
+  min-height: 100vh;
+  // padding: 20px;
+  background: var(--smoky-black);
   .modal-area {
     position: fixed;
+    z-index: 10;
   }
 }
 </style>

@@ -12,7 +12,7 @@ export default {
     const nuxtApp = useNuxtApp()
     nuxtApp.$alert = this.alert
     nuxtApp.$gtag('default_layout_mounted', {
-      
+
     })
   },
 
