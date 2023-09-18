@@ -151,7 +151,7 @@ export default {
           name: 'Javascript',
           level: 5,
           icon: jsIcon,
-          text: '주요 언어로 사용하고 있습니다.'
+          text: '주력 언어로 사용하고 있습니다.'
         },
 
         {
@@ -164,20 +164,20 @@ export default {
           name: 'CSS',
           level: 5,
           icon: cssIcon,
-          text: '대부분의 css프레임워크 없이 사용하고 있습니다. scss 비중이 더 높습니다.'
+          text: '모든 프로젝트에서 css프레임워크 없이 사용하고 있습니다. Vue 기반 프로젝트는 scss만 사용합니다.'
         },
 
         {
           name: 'Typescript',
           level: 5,
           icon: tsIcon,
-          text: '최근 Vue3 + Nuxt3를 사용하며 Typescript로 전환하며 사용하고 있습니다.'
+          text: '최근 Vue3 + Nuxt3를 사용하며 Typescript를 사용하고 있습니다.'
         },
         {
           name: 'Flutter',
           level: 5,
           icon: flutterIcon,
-          text: '쇼핑적립 앱을 개발하며 시작하였으며 네티이브 개발 시 사용하고 있습니다.'
+          text: '쇼핑적립 앱을 개발하며 시작하였으며 네티이브 기능이 필요할 때 사용하고 있습니다.'
         },
         {
           name: 'PHP',
@@ -191,7 +191,7 @@ export default {
         {
           name: '개인 홈페이지',
           text: 'Nuxt3 + Vue3로 만든 개인 홈페이지',
-          tech: ['Nuxt3', 'Vue3', 'Javascript', 'Typescript', 'SCSS', 'Docker', 'Reverse Proxy', 'Nginx'],
+          tech: ['Nuxt3', 'Vue3', 'Javascript', 'Typescript', 'SCSS', 'Docker', 'Reverse Proxy', 'Nginx', 'Firebase'],
           link: ['https://cirnect.asuscomm.com/portfolio'],
           img: img02,
           period: '2023.09.17 ~',
@@ -206,7 +206,7 @@ export default {
           img: img01,
           video: '/vidio-01.mp4',
           period: '2023.07 ~ 2023.09',
-          description: 'Nuxt3 + Vue3로 만든 공급사 파트너센터 페이지, 공급사의 상품을 등록하고 관리하는 페이지입니다.',
+          description: 'Nuxt3 + Vue3로 만든 공급사 파트너센터 페이지로 공급사의 상품을 등록하고 관리하는 페이지입니다. 외부에 공개되는 페이지가 아니며 로그인이 필요한 페이지입니다.',
           my: '100%'
         },
         {
@@ -218,9 +218,9 @@ export default {
           video: '/videos/video-03.mp4',
           period: '2022.04 ~ ',
           description: `Nuxt2 + Vue2로 만든 가상 부동산 거래 플랫폼
-          <br> 설계 단계부터 참여했던 프로젝트 입니다.
+          <br> 설계 단계부터 참여하여 개발했던 프로젝트 입니다.
           <br>프로적션에서 SEO, PWA 적용했었던 첫 프로젝트 입니다.
-          <br>Auth, 마이페이지, 결제, 투표, 마커 기반 콘텐츠 등 주여 기능을 개발했습니다.
+          <br>Auth, 마이페이지, 결제, 투표, 마커 기반 콘텐츠 등 주요 핵심 기능을 개발했습니다.
           `,
           my: '총 2명 70%'
         },
@@ -249,8 +249,7 @@ export default {
           period: '2021.07 ~',
           description: `플러터로 만든 커머스 앱 입니다.
           <br>기존 쇼핑적립 웹이 폐쇠적인 커머스였기에 오픈 커머스를 만들기 위해 시작한 프로젝트 입니다.<br>
-          플러터로 개발하였으며 기존 웹 기능을 모두 구현하였습니다.
-          
+          플러터로 개발하였으며 기존 웹 기능을 모두 플러터로 구현하였습니다.
           `,
           my: '총 2명 40%'
         },
@@ -264,7 +263,7 @@ export default {
           period: '2020.01 ~ 2020.08',
           description: `처음 설계부터 개발, 배포까지 진행한 게임
           <br>자사 WebGame 엔진,ㄹ 사용하여 개발한 게임입니다. <br>
-          게임 엔진, 게임 클라이언트, 게임 서버, 배포까지 진행했습니다.
+          게임 엔진, 게임 클라이언트, 게임 서버, 배포를 진행했습니다.
           `,
           my: '총 2명 90%'
         },
