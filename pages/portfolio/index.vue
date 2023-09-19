@@ -113,7 +113,7 @@ export default {
   data () {
     return {
       textEffect: '',
-      displayText: '이 페이지는 Nuxt3 + Vue3로 만들어졌습니다. Docker와 Reverse Proxy를 사용하여 배포하고 있습니다.',
+      displayText: '이 페이지는 Nuxt3 + Vue3로 만들어졌습니다.',
       textIndex: 0,
       menus: [{
         text: 'About Me',
