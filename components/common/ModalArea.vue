@@ -31,8 +31,18 @@ export default {
       id: 2
     }
   },
+  watch: {
+    'popups.length' (v) {
+      if (v) {
+        document.body.style.overflow = 'hidden'
+      } else {
+        document.body.style.overflow = 'auto'
+      }
+    }
+  },
 
   mounted () {
+
     // if (this.$route.hash.includes(popupHash)) {
     //   this.$router.replace({ hash: '' })
     // }
