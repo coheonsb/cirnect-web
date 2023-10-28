@@ -42,7 +42,6 @@ async function request (
   return { data, error, refresh, execute, status }
 }
 
-
 const api = async <T>(
   url: string,
   options: UseFetchOptions<T> = {},

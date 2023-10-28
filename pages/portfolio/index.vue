@@ -51,12 +51,11 @@
         <button v-for="p of projects" :key="p.name" class="project" @click="showPopup(p)">
           <h5 class="sp14 fw700 mb s-10">{{ p.name }}</h5>
           <img v-if="!p.video" :src="p.img" alt="">
-
           <video v-else class="mt mb s-10" :poster="p.img" autoplay
                  playsinline
                  muted
                  loop>
-            <source :src="p.video" type="video/mp4">
+            <source :src="p.video" type="video/mp4" playsinline>
           </video>
 
           <p class="sp14">{{ p.text }}</p>

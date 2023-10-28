@@ -1,7 +1,7 @@
 export default defineNuxtPlugin({
   name: 'globalSetup',
-  setup () {
 
+  setup () {
     useHead({
       script: [
         {
@@ -13,8 +13,8 @@ export default defineNuxtPlugin({
           src: '/ga.js',
           type: 'text/javascript'
         }
-      ],
+      ]
     })
   }
-}
-)
+
+})

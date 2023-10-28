@@ -19,7 +19,6 @@ function trackError (err, nuxtApp) {
       email: cookies?.value
     })
     nuxtApp.$alert({ message: error?.data?.message || error?.message, title: '에러' })
-  
   }
 }
 
@@ -29,13 +28,11 @@ export default defineNuxtPlugin((nuxtApp) => {
   nuxtApp.provide('gtag', function (eventName, params) {
     if (window.dataLayer != null) {
       Object.assign(params, {
-  
+
       })
       gtag('event', eventName, params)
     }
   })
-
-
 
   nuxtApp.provide('trackError', function (err) {
     trackError(err, nuxtApp)

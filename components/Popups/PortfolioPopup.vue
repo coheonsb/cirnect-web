@@ -66,7 +66,7 @@ export default {
   width: 100%;
   max-width: 80vw;
   height: 100%;
-  max-height: 90vh;
+  max-height: calc(calc(var(--vh, 1vh) * 90));
   overflow: scroll;
   word-break: break-word;
   color: var(--white-2);
