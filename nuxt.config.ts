@@ -2,7 +2,6 @@ import { fileURLToPath } from 'node:url'
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import { defineNuxtConfig } from 'nuxt/config'
 
-
 const config = {
   devtools: { enabled: true },
 
@@ -22,12 +21,13 @@ const config = {
   imports: {
     dirs: ['.stores']
   },
-  
+
   modules: [
     '@pinia/nuxt',
     '@pinia-plugin-persistedstate/nuxt',
     '@vueuse/nuxt',
-    '@nuxtjs/robots'
+    '@nuxtjs/robots',
+    '@nuxtjs/device'
   ],
   pinia: {
     autoImports: ['defineStore', 'definePiniaStore', 'acceptHMRUpdate', 'storeToRefs']
@@ -54,6 +54,5 @@ const config = {
     }
   }
 }
-
 
 export default defineNuxtConfig(config)

@@ -7,6 +7,7 @@
     <div class="media mt s-20">
       <img v-if="!project.video" :src="project.img" alt="">
       <video v-else class="mt mb s-10" :poster="project.img" autoplay
+             playsinline
              muted
              loop>
         <source :src="project.video" type="video/mp4">
