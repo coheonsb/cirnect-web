@@ -6,7 +6,6 @@
   "author": "Cheon seulbyeol <cheon.seulbyeol@nbt.com>",
   "private": true,
   "engines": {
-    "node": "^18.16.1",
     "npm": "^9.5.1"
   },
   "scripts": {
